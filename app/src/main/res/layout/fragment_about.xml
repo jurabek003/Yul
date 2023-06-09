@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.AboutFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:background="@color/purple_200"
+        android:layout_height="?actionBarSize">
+        <ImageView
+            android:id="@+id/cancel_button4"
+            android:layout_gravity="center"
+            android:layout_width="50dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:scaleType="centerInside"
+            android:foreground="?actionBarItemBackground"
+            android:layout_height="50dp"
+            android:layout_marginStart="5dp"
+            android:src="@drawable/cancel"/>
+        <TextView
+            android:id="@+id/text_yoaqtirgan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="27sp"
+            android:fontFamily="serif"
+            android:textColor="@color/white"
+            android:textStyle="normal"
+            android:layout_marginStart="10dp"
+            android:text="Biz Haqimizda"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:gravity="center"
+        android:fontFamily="monospace"
+        android:layout_margin="10dp"
+        android:textColor="@color/purple_500"
+        android:text="Assalomu Alekum"/>
+ <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:textColor="@color/purple_200"
+     android:layout_marginStart="5dp"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:text="Yo'l belgilari dasturi asosan qoidalarni yangi o'rgana yotganlar uchun, bu dasturni tuzishda koproq fragmentlardan foydalanildi malumotlarni saqlash uchun esa SqlLiteOpenHelper dan foydalanilgan.\nDastur tuzuvchisi Turg'unboyev Jo'rabek TATUFF 2 kurs bitiruvchisi."/>
+
+
+</LinearLayout>
